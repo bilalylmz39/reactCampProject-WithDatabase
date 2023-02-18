@@ -14,7 +14,7 @@ export default class Navi extends Component {
   return (
     <div>
       <Segment>
-        <Menu inverted >
+        <Menu inverted fixed='top' >
           <Container>
             <Menu.Item name='home'active={activeItem === 'home'}
           onClick={this.handleItemClick}/>
