@@ -3,7 +3,7 @@ import { List } from 'semantic-ui-react'
 export default function Categories() {
   return (
     <div>
-      <List ordered>
+      <List ordered style={{marginTop:"5em"}}>
     <List.Item as='a'>Getting Started</List.Item>
     <List.Item as='a'>Introduction</List.Item>
     <List.Item>
